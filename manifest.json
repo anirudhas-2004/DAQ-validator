@@ -1,0 +1,26 @@
+{
+  "dc": {
+    "path": "dc_run.csv",
+    "stimulus_type": "dc",
+    "sample_rate_hz": 102400.0,
+    "expected_dc_v": 0.0,
+    "full_scale_v": 10.0
+  },
+  "sine": {
+    "path": "sine_run.csv",
+    "stimulus_type": "sine",
+    "sample_rate_hz": 102400.0,
+    "expected_sine_freq_hz": 1000.0,
+    "expected_sine_amplitude_v": 8.912509381337456,
+    "full_scale_v": 10.0
+  },
+  "clip_fraction_limit": 0.01,
+  "flatline_std_limit": 1e-09,
+  "sine_harmonics": 5,
+  "channel_names": [
+    "ch1",
+    "ch2",
+    "ch3",
+    "ch4"
+  ]
+}
